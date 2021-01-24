@@ -29,7 +29,7 @@ button {
 }
 
 div {
-	transition-duration: 0.4s;
+	transition-duration: 1.4s;
 }
 
 ::placeholder {
@@ -99,7 +99,9 @@ textarea {
 <script>
 
 window.onload = function() {
-	alert(document.getElementsByClassName('_D1_ce')[0].childNodes.length);
+	for(var i=0, i<document.getElementsByClassName('_D1_ce')[0].childNodes.length, i++) {
+		alert(document.getElementsByClassName('_D1_ce')[0].childNodes[i]);
+	};
 };
 
 </script>
