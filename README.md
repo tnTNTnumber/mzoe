@@ -1,2 +1,2 @@
 # mzoe
-mzoe.tk and mercatinozoe.tk site
+mzoe.tk and mercatinozoe.tk site repository.
