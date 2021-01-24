@@ -101,7 +101,9 @@ textarea {
 window.onload = function() {
 	var __I1_ve = [1]; /*Iteration*/
 	for(__I1_ve[0]; __I1_ve<document.getElementsByClassName('_D1_ce')[0].childNodes.length; __I1_ve[0]=__I1_ve[0]+2) {
-		alert(document.getElementsByClassName('_D1_ce')[0].childNodes[__I1_ve[0]]);
+	};
+	if(document.getElementsByClassName('_D1_ce')[0].childNodes[1]==document.getElementsByClassName('_H1_ce')[0]) {
+		alert('1!');
 	};
 };
 
@@ -114,6 +116,13 @@ window.onload = function() {
 	<p>Mi trovate qualche pomeriggio dalle 16:00 alle 17:00.</p>
 	<p>Vendo giocattoli, braccialetti, bijoux ...</p>
 	<p>I prezzi sono circa di 1€ o 2€.</p>
+</div>
+
+<div style="display:none;">
+	<div class="_D_ce"></div>
+	<a class="_A_ce"></a>
+	<p class="_P_ce"></p>
+	<h1 class="_H1_ce"></h1>
 </div>
 
 </body>
